@@ -91,7 +91,6 @@ You should also see the events displayed in the webhook-repo web UI at `https://
 This repository includes sample files to help you test:
 - `README.md` - This file
 - `sample.txt` - A sample text file for testing commits
-- `script.py` - A sample Python script
 
 Feel free to modify these files to generate webhook events.
 
@@ -99,13 +98,6 @@ Feel free to modify these files to generate webhook events.
 
 - `main` - Main branch
 - Create feature branches for testing pull requests
-
-## Tips
-
-- Each push to any branch will trigger a webhook
-- Opening a pull request triggers a webhook
-- Merging a pull request triggers both a merge event and a push event
-- You can view all webhook deliveries in your repository settings
 
 ## Troubleshooting
 
